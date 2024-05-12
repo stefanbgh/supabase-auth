@@ -1,0 +1,9 @@
+export { default as Home } from "./Home/Home";
+export { default as Login } from "./Login/Login";
+export { default as Register } from "./Register/Register";
+export { default as AuthOTP } from "./OTP/AuthOTP/AuthOTP";
+export { default as VerifyOTP } from "./OTP/VerifyOTP/VerifyOTP";
+export { default as ResetPassword } from "./Password/ResetPassword/ResetPassword";
+export { default as UpdatePassword } from "./Password/UpdatePassword/UpdatePassword";
+export { default as TooManyReq } from "./429/429";
+export { default as NotFound } from "./404/404";

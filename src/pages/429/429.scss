@@ -1,0 +1,23 @@
+@import "../../scss/abstract/variables";
+
+.error {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: $green;
+    gap: .5rem;
+
+    &-icon {
+        font-size: 5rem;
+        color: $green;
+    }   
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}

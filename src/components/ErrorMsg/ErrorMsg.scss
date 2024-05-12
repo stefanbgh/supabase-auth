@@ -1,0 +1,9 @@
+@import "../../scss/abstract/variables";
+
+.error {
+    &-msg {
+        color: $red;
+        font-style: italic;
+        margin-bottom: .75rem;
+    }
+}

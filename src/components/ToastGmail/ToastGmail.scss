@@ -1,0 +1,21 @@
+@import "../../scss/abstract/variables";
+
+.toast {
+    &__info { 
+        display: flex;
+        gap: .25rem;
+
+        &-link {
+            display: flex;
+            align-items: center;
+            font-weight: bold;
+            transition: .3s;
+            color: $blue;
+
+            &:hover {
+                transition: .3s;
+                color: $skyblue;
+            }
+        }
+    }
+}

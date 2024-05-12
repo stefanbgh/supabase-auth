@@ -1,0 +1,9 @@
+@import "../../../scss/abstract/variables";
+
+.google {
+    &-btn {
+        background: $light;
+        border: none;
+        cursor: pointer;
+    }
+}
